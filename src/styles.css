@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 800%;
+}
+p {
+  font-size: 210%;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}

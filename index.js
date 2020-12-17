@@ -1,5 +1,3 @@
-import "style/style.css";
-
 const express = require("express");
 
 const app = express();

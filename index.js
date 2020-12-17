@@ -13,6 +13,7 @@ app.set("view engine", "ejs");
 app.get("/", function (req, res) {
   // Rendering home.ejs page
   res.render("home");
+  return 0;
 });
 
 app.get("/qwe", (req, res) => {

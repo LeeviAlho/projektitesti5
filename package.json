@@ -1,10 +1,11 @@
 {
   "name": "node-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Forum platform",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js localhost 8080"
+    "start": "./node_modules/parcel-bundler/bin/cli.js index.html --port 8080",
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "ejs": "^3.1.5",

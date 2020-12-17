@@ -2,13 +2,15 @@
   "name": "node-js",
   "version": "1.0.0",
   "description": "Forum platform",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/parcel-bundler/bin/cli.js index.js --port 8080"
   },
   "dependencies": {
     "ejs": "^3.1.5",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "pug": "3.0.0"
   },
   "keywords": []
 }

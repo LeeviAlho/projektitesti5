@@ -1,3 +1,5 @@
+import "style//style.css";
+
 const express = require("express");
 
 const app = express();
@@ -15,6 +17,7 @@ app.get("/", function (req, res) {
 
 app.get("/qwe", (req, res) => {
   res.send("qweqweqwe");
+  return 0;
 });
 
 app.listen(PORT, function (err) {

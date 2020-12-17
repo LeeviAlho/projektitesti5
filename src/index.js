@@ -2,11 +2,22 @@ const express = require("express");
 
 const app = express();
 
-app.get("/", (req, res) => {
-  res.sendFile("index.html");
+const PORT = 8080;
+
+// View engine setup
+app.set("view engine", "ejs");
+
+// Without middleware
+app.get("/", function (req, res) {
+  // Rendering home.ejs page
+  res.render("home");
 });
+
 app.get("/qwe", (req, res) => {
   res.send("qweqweqwe");
 });
 
-app.listen(8080);
+app.listen(PORT, function (err) {
+  if (err) console.log(err);
+  console.log("Server listening on PORT", PORT);
+});

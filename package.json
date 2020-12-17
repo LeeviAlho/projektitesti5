@@ -2,7 +2,7 @@
   "name": "node-js",
   "version": "1.0.0",
   "description": "Forum platform",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "./node_modules/parcel-bundler/bin/cli.js index.js --port 8080",
     "build": "parcel build index.js"

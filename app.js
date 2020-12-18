@@ -5,7 +5,7 @@ var app = express();
 
 var PORT = 8080;
 
-var mongoose = require("mongoose").MongoClient;
+var mongoose = require("mongoose");
 var url = "mongodb://localhost:27017/";
 var mongoDB = process.env.MONGODB_URI || url;
 mongoose.connect(mongoDB);

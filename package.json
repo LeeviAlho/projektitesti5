@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Forum platform",
   "private": true,
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js localhost 8080"
+    "start": "node app.js localhost 8080"
   },
   "dependencies": {
     "cookie-parser": "^1.4.5",

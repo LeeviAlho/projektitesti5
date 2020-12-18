@@ -7,7 +7,7 @@ var PORT = 8080;
 
 var Mongoose = require("mongoose").MongoClient;
 var url = "mongodb://localhost:27017/";
-var mongoDB = process.env.MONGODB_URI || dev_db_url;
+var mongoDB = process.env.MONGODB_URI || url;
 mongoose.connect(mongoDB);
 mongoose.Promise = Promise;
 var db = mongoose.connection;
